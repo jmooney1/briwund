@@ -1,0 +1,1446 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-10 11:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:20
+msgid "Looks Like Something Went Wrong!"
+msgstr ""
+
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location.Click the link below to "
+"return home."
+msgstr ""
+
+#: 404.php:32
+msgid "Return home"
+msgstr ""
+
+#: comments.php:25
+msgid "(Edit)"
+msgstr ""
+
+#: comments.php:39
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:63
+msgid "Comments"
+msgstr ""
+
+#: comments.php:63
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:63
+msgid "% Comments "
+msgstr ""
+
+#: comments.php:72
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:74
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:75
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:91
+msgid "Leave A Reply"
+msgstr ""
+
+#: comments.php:93
+msgid "Post Comment"
+msgstr ""
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:35
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:23 content-single.php:41 content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:30 inc/template-tags.php:60
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1143
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1179
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1196
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1227
+msgid "Edit"
+msgstr ""
+
+#: content-portfolio.php:17
+msgid "Date:"
+msgstr ""
+
+#: content-portfolio.php:21
+msgid "Client:"
+msgstr ""
+
+#: content-portfolio.php:27 content-portfolio.php:33
+msgid "Category:"
+msgstr ""
+
+#: content-portfolio.php:39
+msgid "Value:"
+msgstr ""
+
+#: functions.php:74
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:75
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:76
+msgid "Bottom Menu"
+msgstr ""
+
+#: functions.php:126
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:128
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:137
+msgid "Page Sidebar"
+msgstr ""
+
+#: functions.php:139
+msgid "Add widgets here to appear in your sidebar Page."
+msgstr ""
+
+#: functions.php:148
+msgid "Header Sidebar"
+msgstr ""
+
+#: functions.php:150
+msgid "Add widgets here to appear in your Header Sidebar."
+msgstr ""
+
+#: functions.php:159
+msgid "Home Sidebar"
+msgstr ""
+
+#: functions.php:161
+msgid "Add widgets here to appear in your sidebar Home."
+msgstr ""
+
+#: functions.php:170
+msgid "Before Footer Sidebar"
+msgstr ""
+
+#: functions.php:172
+msgid "Add widgets here to appear in your Before Footer Sidebar."
+msgstr ""
+
+#: functions.php:181
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:183
+msgid "Add widgets here to appear in your sidebar Footer1."
+msgstr ""
+
+#: functions.php:191
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:193
+msgid "Add widgets here to appear in your sidebar Footer2."
+msgstr ""
+
+#: functions.php:201
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:203
+msgid "Add widgets here to appear in your sidebar Footer3."
+msgstr ""
+
+#: functions.php:211
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:213
+msgid "Add widgets here to appear in your sidebar Footer4."
+msgstr ""
+
+#: functions.php:221
+msgid "Footer custom menu"
+msgstr ""
+
+#: functions.php:223
+msgid "Add widgets here to appear in your sidebar Footer custom menu."
+msgstr ""
+
+#: functions/visual-composer.php:30 inc/options/controls/typography.php:208
+msgid "Font Color"
+msgstr ""
+
+#: functions/visual-composer.php:32
+msgid "Select font color"
+msgstr ""
+
+#: functions/visual-composer.php:38
+msgid "Row ID"
+msgstr ""
+
+#: functions/visual-composer.php:40
+msgid "Enter custom ID for this row"
+msgstr ""
+
+#: functions/visual-composer.php:45
+msgid "Enable Content Width 100%"
+msgstr ""
+
+#: functions/visual-composer.php:48 functions/visual-composer.php:58
+#: functions/visual-composer.php:176
+msgid "Yes, please"
+msgstr ""
+
+#: functions/visual-composer.php:54
+msgid "Enable overlay Effect"
+msgstr ""
+
+#: functions/visual-composer.php:56 functions/visual-composer.php:75
+#: functions/visual-composer.php:83 functions/visual-composer.php:91
+msgid "Design options"
+msgstr ""
+
+#: functions/visual-composer.php:64
+msgid "Overlay Color"
+msgstr ""
+
+#: functions/visual-composer.php:66
+msgid "Select overlay color"
+msgstr ""
+
+#: functions/visual-composer.php:73
+msgid "Parallax Animation Speed"
+msgstr ""
+
+#: functions/visual-composer.php:81
+msgid "Parallax X Offset"
+msgstr ""
+
+#: functions/visual-composer.php:89
+msgid "Parallax Y Offset"
+msgstr ""
+
+#: functions/visual-composer.php:100
+msgid "Tabs Style"
+msgstr ""
+
+#: functions/visual-composer.php:103
+msgid "Tab Style 1"
+msgstr ""
+
+#: functions/visual-composer.php:104
+msgid "Tab Style 2"
+msgstr ""
+
+#: functions/visual-composer.php:110
+msgid "Tabs Alignment"
+msgstr ""
+
+#: functions/visual-composer.php:113 functions/visual-composer.php:127
+msgid "Left"
+msgstr ""
+
+#: functions/visual-composer.php:114
+msgid "Center"
+msgstr ""
+
+#: functions/visual-composer.php:115 functions/visual-composer.php:128
+msgid "Right"
+msgstr ""
+
+#: functions/visual-composer.php:124
+msgid "Navigator Position"
+msgstr ""
+
+#: functions/visual-composer.php:134 functions/visual-composer.php:147
+msgid "Style"
+msgstr ""
+
+#: functions/visual-composer.php:137 functions/visual-composer.php:150
+#: functions/visual-composer.php:163
+msgid "Style 1"
+msgstr ""
+
+#: functions/visual-composer.php:138 functions/visual-composer.php:151
+#: functions/visual-composer.php:164
+msgid "Style 2"
+msgstr ""
+
+#: functions/visual-composer.php:160
+msgid "Bars Style"
+msgstr ""
+
+#: functions/visual-composer.php:173
+msgid "Enable Lightbox For This Image"
+msgstr ""
+
+#: functions/woocommerce.php:169
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions/woocommerce.php:170
+#, php-format
+msgid "<span class=\"cart-count\">%d</span>"
+msgid_plural "<span class=\"cart-count\">%d</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer.php:821 tpl/pagination.php:54
+#: inc/options/options-definition.php:625
+#: inc/options/options-definition.php:739
+msgid "Load More"
+msgstr ""
+
+#: inc/customizer.php:1977 inc/options/options-definition.php:727
+msgid "Pager"
+msgstr ""
+
+#: inc/customizer.php:1978 inc/options/options-definition.php:620
+#: inc/options/options-definition.php:731
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer.php:1979 inc/options/options-definition.php:735
+msgid "Pager & Numeric"
+msgstr ""
+
+#: inc/customizer.php:1991 inc/options/options-definition.php:275
+msgid "Boxed"
+msgstr ""
+
+#: inc/customizer.php:1992 inc/options/options-definition.php:270
+msgid "Wide"
+msgstr ""
+
+#: inc/customizer.php:2004
+msgid "Simple List"
+msgstr ""
+
+#: inc/customizer.php:2005
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer.php:2017
+msgid "footer_default"
+msgstr ""
+
+#: inc/customizer.php:2018
+msgid "One"
+msgstr ""
+
+#: inc/customizer.php:2019
+msgid "Two"
+msgstr ""
+
+#: inc/customizer.php:2020
+msgid "Three"
+msgstr ""
+
+#: inc/customizer.php:2021
+msgid "Four"
+msgstr ""
+
+#: inc/helpers.php:32
+msgid "Classic"
+msgstr ""
+
+#: inc/helpers.php:33
+msgid "Header style 02"
+msgstr ""
+
+#: inc/helpers.php:34
+msgid "Modern"
+msgstr ""
+
+#: inc/helpers.php:136
+msgid "Create a Menu"
+msgstr ""
+
+#. %s is the page number.
+#: inc/helpers.php:264 inc/breadcrumb-trail/breadcrumb-trail.php:185
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/metabox-options.php:9
+msgid "Causes Settings"
+msgstr ""
+
+#: inc/metabox-options.php:14 inc/metabox-options.php:27
+msgid "General"
+msgstr ""
+
+#: inc/metabox-options.php:21
+msgid "Page Options"
+msgstr ""
+
+#: inc/metabox-options.php:28
+msgid "Header"
+msgstr ""
+
+#: inc/metabox-options.php:29
+msgid "Footer"
+msgstr ""
+
+#. Name of the template
+#: inc/metabox-options.php:30 inc/options/options-definition.php:128
+#: inc/options/options-definition.php:551
+msgid "Portfolio"
+msgstr ""
+
+#. Name of the template
+#: inc/metabox-options.php:31 inc/metabox-options.php:45
+#: inc/options/options-definition.php:666
+msgid "Blog"
+msgstr ""
+
+#: inc/metabox-options.php:40
+msgid "Post settings"
+msgstr ""
+
+#: inc/pagination.php:63
+msgid "Load more"
+msgstr ""
+
+#: inc/template-tags.php:22
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "No comment"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:36
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:56
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:75
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:79
+msgid "Published In"
+msgstr ""
+
+#: inc/template-tags.php:81
+msgid "Previous Post"
+msgstr ""
+
+#: inc/template-tags.php:82
+msgid "Next Post"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page"
+msgstr ""
+
+#: tpl/page-title.php:5 inc/breadcrumb-trail/breadcrumb-trail.php:181
+msgid "Archives"
+msgstr ""
+
+#: tpl/page-title.php:8 tpl/page-title.php:45
+#: inc/breadcrumb-trail/breadcrumb-trail.php:179
+msgid "Home"
+msgstr ""
+
+#: tpl/page-title.php:12
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: tpl/page-title.php:14
+msgid "Not Found"
+msgstr ""
+
+#: tpl/page-title.php:17
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: tpl/page-title.php:20
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: tpl/page-title.php:22
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: tpl/page-title.php:24
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: tpl/page-title.php:44
+msgid "You are here:"
+msgstr ""
+
+#. Name of the template
+msgid "Full width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Single Page"
+msgstr ""
+
+#: tpl/pagination.php:52
+msgid "Next"
+msgstr ""
+
+#: tpl/pagination.php:53
+msgid "Previous"
+msgstr ""
+
+#: tpl/related-post.php:33
+msgid "Related Posts"
+msgstr ""
+
+#: widgets/themesflat_categories.php:25
+msgid "flat - Categories"
+msgstr ""
+
+#: widgets/themesflat_categories.php:28
+msgid "Categories."
+msgstr ""
+
+#: widgets/themesflat_categories.php:79 widgets/themesflat_flickr.php:96
+#: widgets/themesflat_recent_post.php:122
+msgid "Title:"
+msgstr ""
+
+#: widgets/themesflat_categories.php:84 widgets/themesflat_recent_post.php:141
+msgid "Count:"
+msgstr ""
+
+#: widgets/themesflat_categories.php:88
+msgid "Child Of:"
+msgstr ""
+
+#: widgets/themesflat_categories.php:93
+msgid "Show count?"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:28
+msgid "flat - flat Flicker"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:31
+msgid "Displays your Flickr Photos."
+msgstr ""
+
+#: widgets/themesflat_flickr.php:102
+msgid "Flickr ID:"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:108
+msgid "Number of Photos:"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:111
+msgid "3"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:113
+msgid "6"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:115
+msgid "8"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:117
+msgid "9"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:119
+msgid "12"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:125
+msgid "Type:"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:128
+msgid "User"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:130
+msgid "Group"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:135
+msgid "Display:"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:138 inc/options/options-definition.php:642
+msgid "Random"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:140
+msgid "Latest"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:147
+msgid "Auto change image?"
+msgstr ""
+
+#: widgets/themesflat_flickr.php:152
+msgid "Show items in row:"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:26
+msgid "flat - Recent Post"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:29
+msgid "Recent Post."
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:127
+msgid "Select Category:"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:129
+msgid "All"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:147
+msgid "Show Content ?"
+msgstr ""
+
+#: widgets/themesflat_recent_post.php:152
+msgid "Show Date ?"
+msgstr ""
+
+#: inc/admin/export-data.php:46
+msgid "export Data Installation"
+msgstr ""
+
+#: inc/admin/export-data.php:47 inc/admin/sample-data.php:56
+msgid "Sample Data"
+msgstr ""
+
+#: inc/admin/sample-data.php:55 inc/admin/sample-data.php:68
+msgid "Sample Data Installation"
+msgstr ""
+
+#: inc/admin/sample-data.php:71
+msgid "There is following tasks will be run for install sample data:"
+msgstr ""
+
+#: inc/admin/sample-data.php:73
+msgid "Import sample content "
+msgstr ""
+
+#: inc/admin/sample-data.php:83
+msgid "Download media files"
+msgstr ""
+
+#: inc/admin/sample-data.php:94
+msgid "Congratulation! Sample data has been installed successfully"
+msgstr ""
+
+#: inc/admin/sample-data.php:99
+msgid "Install Sample Data"
+msgstr ""
+
+#: inc/admin/sample-data.php:309
+msgid ""
+"Attention!!! Your existing data will be removed when install sample data. "
+"Are you sure you want to install sample data?"
+msgstr ""
+
+#: inc/admin/sidebars.php:34
+msgid "remove this area"
+msgstr ""
+
+#: inc/admin/sidebars.php:35
+msgid "Are you sure you want to remove this widget area?"
+msgstr ""
+
+#: inc/admin/sidebars.php:57
+msgid "New custom widget area has been created"
+msgstr ""
+
+#: inc/admin/sidebars.php:58
+msgid "Custom widget area has been removed"
+msgstr ""
+
+#: inc/admin/sidebars.php:61
+msgid "Cannot create custom widget area, please try again"
+msgstr ""
+
+#: inc/admin/sidebars.php:62
+msgid "Invalid the ID of widget area"
+msgstr ""
+
+#: inc/admin/sidebars.php:76
+msgid "Create Widget Area"
+msgstr ""
+
+#: inc/admin/sidebars.php:78
+msgid "Enter name of the widget area:"
+msgstr ""
+
+#: inc/admin/sidebars.php:80
+msgid "Create"
+msgstr ""
+
+#: inc/admin/sidebars.php:87
+msgid "Remove Custom Widget Area"
+msgstr ""
+
+#: inc/admin/sidebars.php:89
+msgid "Select custom widget area to be removed:"
+msgstr ""
+
+#: inc/admin/sidebars.php:95 inc/options/options.php:210
+#: inc/options/controls/background.php:139
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/sidebars.php:130
+#, php-format
+msgid "There are widgets for %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:180
+msgid "404 Not Found"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/breadcrumb-trail/breadcrumb-trail.php:183
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumb-trail/breadcrumb-trail.php:187
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumb-trail/breadcrumb-trail.php:189
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:716
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:733
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:750
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:766
+#: inc/breadcrumb-trail/breadcrumb-trail.php:795
+#: inc/breadcrumb-trail/breadcrumb-trail.php:830
+#: inc/breadcrumb-trail/breadcrumb-trail.php:857
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1044
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:767
+#: inc/breadcrumb-trail/breadcrumb-trail.php:831
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1048
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:768
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1052
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:796
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1171
+msgid "Split"
+msgstr ""
+
+#: inc/breadcrumb-trail/breadcrumb-trail.php:1175
+msgid "Merge"
+msgstr ""
+
+#: inc/options/options-definition.php:129
+msgid "This is an special option, it allow to set Portfolio informations."
+msgstr ""
+
+#: inc/options/options-definition.php:135
+msgid "Client"
+msgstr ""
+
+#: inc/options/options-definition.php:142
+msgid "Value"
+msgstr ""
+
+#: inc/options/options-definition.php:149
+#: inc/options/options-definition.php:174
+msgid "Images"
+msgstr ""
+
+#: inc/options/options-definition.php:161
+msgid "Dear friends,"
+msgstr ""
+
+#: inc/options/options-definition.php:162
+msgid "Option just view if post format is gallery or video! <br/>Thanks!"
+msgstr ""
+
+#: inc/options/options-definition.php:167
+msgid "Post Format: Gallery ."
+msgstr ""
+
+#: inc/options/options-definition.php:181
+msgid "Post Format: Video ( Embeded video from youtube, vimeo ...)."
+msgstr ""
+
+#: inc/options/options-definition.php:188
+msgid "iframe video link"
+msgstr ""
+
+#: inc/options/options-definition.php:199
+msgid "Events"
+msgstr ""
+
+#: inc/options/options-definition.php:200
+msgid "This is an special option, it allow to set Causes informations."
+msgstr ""
+
+#: inc/options/options-definition.php:206
+msgid "Position"
+msgstr ""
+
+#: inc/options/options-definition.php:213
+msgid "Address"
+msgstr ""
+
+#: inc/options/options-definition.php:220
+msgid "Event date time"
+msgstr ""
+
+#: inc/options/options-definition.php:227
+msgid "Link to join"
+msgstr ""
+
+#: inc/options/options-definition.php:250
+msgid "Layout"
+msgstr ""
+
+#: inc/options/options-definition.php:251
+msgid ""
+"Choose between a full or a boxed layout to set how this page layout will "
+"look like."
+msgstr ""
+
+#: inc/options/options-definition.php:256
+msgid "Enable Custom Layout"
+msgstr ""
+
+#: inc/options/options-definition.php:264
+msgid "Display Style"
+msgstr ""
+
+#: inc/options/options-definition.php:282
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/options/options-definition.php:288
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/options/options-definition.php:292
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/options/options-definition.php:296
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/options/options-definition.php:303
+msgid "Custom Sidebar"
+msgstr ""
+
+#: inc/options/options-definition.php:314
+msgid "Top Bar"
+msgstr ""
+
+#: inc/options/options-definition.php:315
+msgid "Turn on/off the top bar and change it styles."
+msgstr ""
+
+#: inc/options/options-definition.php:320
+msgid "Enable Custom Topbar"
+msgstr ""
+
+#: inc/options/options-definition.php:328
+msgid "Display Topbar On This Page"
+msgstr ""
+
+#: inc/options/options-definition.php:335
+msgid "Topbar Background"
+msgstr ""
+
+#: inc/options/options-definition.php:342
+msgid "Topbar Text Color"
+msgstr ""
+
+#: inc/options/options-definition.php:349
+msgid "Content Left"
+msgstr ""
+
+#: inc/options/options-definition.php:356
+msgid "Content Right"
+msgstr ""
+
+#: inc/options/options-definition.php:364
+msgid "Custom Header"
+msgstr ""
+
+#: inc/options/options-definition.php:365
+msgid ""
+"Change the header style, toggle sticky header feature and turn on/off extra "
+"menu icons."
+msgstr ""
+
+#: inc/options/options-definition.php:371
+msgid "Enable Custom Header"
+msgstr ""
+
+#: inc/options/options-definition.php:403
+msgid "Enable Social Links"
+msgstr ""
+
+#: inc/options/options-definition.php:411
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/options/options-definition.php:417
+msgid "Show Search Menu"
+msgstr ""
+
+#: inc/options/options-definition.php:424
+msgid "Navigator"
+msgstr ""
+
+#: inc/options/options-definition.php:425
+msgid ""
+"Just select your menu that you wish assign it to the location on the theme."
+msgstr ""
+
+#: inc/options/options-definition.php:431
+msgid "Enable Custom Navigator"
+msgstr ""
+
+#: inc/options/options-definition.php:439
+msgid "Load One Page Navigator Script ( Comming Soon New Versions )"
+msgstr ""
+
+#: inc/options/options-definition.php:448
+msgid "-- Select --"
+msgstr ""
+
+#: inc/options/options-definition.php:474
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/options/options-definition.php:475
+msgid ""
+"This section allow to change the layout and styles of footer widgets to "
+"match as you need."
+msgstr ""
+
+#: inc/options/options-definition.php:480
+msgid "Enable Custom Footer Widgets"
+msgstr ""
+
+#: inc/options/options-definition.php:488
+msgid "Footer Background"
+msgstr ""
+
+#: inc/options/options-definition.php:495
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/options/options-definition.php:504
+msgid "Custom Footer"
+msgstr ""
+
+#: inc/options/options-definition.php:505
+msgid ""
+"You can change the copyright text, show/hide the social icons on the footer."
+msgstr ""
+
+#: inc/options/options-definition.php:510
+msgid "Enable Custom Footer Content"
+msgstr ""
+
+#: inc/options/options-definition.php:518
+msgid "Display Social Links On This Page"
+msgstr ""
+
+#: inc/options/options-definition.php:525
+msgid "Copyright"
+msgstr ""
+
+#: inc/options/options-definition.php:532
+msgid "Bottom Background Color"
+msgstr ""
+
+#: inc/options/options-definition.php:539
+msgid "Bottom Text Color"
+msgstr ""
+
+#: inc/options/options-definition.php:552
+msgid ""
+"Change options in this section to custom style for portfolio listing page."
+msgstr ""
+
+#: inc/options/options-definition.php:557
+msgid "Enable Custom Portfolio layout"
+msgstr ""
+
+#: inc/options/options-definition.php:567
+#: inc/options/options-definition.php:681
+msgid "Grid Columns"
+msgstr ""
+
+#: inc/options/options-definition.php:580
+msgid "Show Filter"
+msgstr ""
+
+#: inc/options/options-definition.php:586
+msgid "Portfolio Style"
+msgstr ""
+
+#: inc/options/options-definition.php:608
+#: inc/options/options-definition.php:715
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/options/options-definition.php:614
+#: inc/options/options-definition.php:721
+msgid "Pagination Style"
+msgstr ""
+
+#: inc/options/options-definition.php:634
+msgid "Order By"
+msgstr ""
+
+#: inc/options/options-definition.php:637
+msgid "Date"
+msgstr ""
+
+#: inc/options/options-definition.php:638
+msgid "ID"
+msgstr ""
+
+#: inc/options/options-definition.php:639
+msgid "Author"
+msgstr ""
+
+#: inc/options/options-definition.php:640
+msgid "Title"
+msgstr ""
+
+#: inc/options/options-definition.php:641
+msgid "Modified"
+msgstr ""
+
+#: inc/options/options-definition.php:643
+msgid "Comment count"
+msgstr ""
+
+#: inc/options/options-definition.php:644
+msgid "Menu order"
+msgstr ""
+
+#: inc/options/options-definition.php:651
+msgid "Order Direction"
+msgstr ""
+
+#: inc/options/options-definition.php:654
+msgid "Ascending"
+msgstr ""
+
+#: inc/options/options-definition.php:655
+msgid "Descending"
+msgstr ""
+
+#: inc/options/options-definition.php:667
+msgid "All options in this section will be used to make style for blog page."
+msgstr ""
+
+#: inc/options/options-definition.php:672
+msgid "Enable Custom Blog layout"
+msgstr ""
+
+#: inc/options/options-definition.php:684
+msgid "2 Columns"
+msgstr ""
+
+#: inc/options/options-definition.php:685
+msgid "3 Columns"
+msgstr ""
+
+#: inc/options/options-definition.php:686
+msgid "4 Columns"
+msgstr ""
+
+#: inc/options/options-definition.php:692
+msgid "Post Excepts Length"
+msgstr ""
+
+#: inc/options/options-definition.php:699
+msgid "Show Read More"
+msgstr ""
+
+#: inc/options/options-definition.php:707
+msgid "Read More Text"
+msgstr ""
+
+#: inc/options/options.php:206
+msgid "Add files"
+msgstr ""
+
+#: tpl/vc/vc_button2.php:4
+msgid "Text on the button"
+msgstr ""
+
+#: tpl/vc/vc_tabs.php:49 tpl/vc/vc_tabs.php:49
+msgid "Previous tab"
+msgstr ""
+
+#: tpl/vc/vc_tabs.php:49 tpl/vc/vc_tabs.php:49
+msgid "Next tab"
+msgstr ""
+
+#: inc/options/controls/background.php:99
+msgid "None"
+msgstr ""
+
+#: inc/options/controls/background.php:103
+msgid "Patterns"
+msgstr ""
+
+#: inc/options/controls/background.php:107
+msgid "Custom"
+msgstr ""
+
+#: inc/options/controls/background.php:127
+msgid "Background Image"
+msgstr ""
+
+#: inc/options/controls/background.php:131
+msgid "Drop a file here or"
+msgstr ""
+
+#: inc/options/controls/background.php:132
+msgid "select a file"
+msgstr ""
+
+#: inc/options/controls/background.php:145
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/options/controls/background.php:149
+msgid "No Repeat"
+msgstr ""
+
+#: inc/options/controls/background.php:153
+msgid "Repeat X"
+msgstr ""
+
+#: inc/options/controls/background.php:157
+msgid "Repeat Y"
+msgstr ""
+
+#: inc/options/controls/background.php:161
+msgid "Repeat All"
+msgstr ""
+
+#: inc/options/controls/background.php:167
+msgid "Background Position"
+msgstr ""
+
+#: inc/options/controls/background.php:171
+msgid "Top Left"
+msgstr ""
+
+#: inc/options/controls/background.php:175
+msgid "Top Center"
+msgstr ""
+
+#: inc/options/controls/background.php:179
+msgid "Top Right"
+msgstr ""
+
+#: inc/options/controls/background.php:184
+msgid "Middle Left"
+msgstr ""
+
+#: inc/options/controls/background.php:188
+msgid "Middle Center"
+msgstr ""
+
+#: inc/options/controls/background.php:192
+msgid "Middle Right"
+msgstr ""
+
+#: inc/options/controls/background.php:197
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/options/controls/background.php:201
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/options/controls/background.php:205
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/options/controls/background.php:211
+msgid "Background Style"
+msgstr ""
+
+#: inc/options/controls/background.php:215
+msgid "Fixed"
+msgstr ""
+
+#: inc/options/controls/background.php:219
+msgid "Scroll"
+msgstr ""
+
+#: inc/options/controls/background.php:223
+msgid "Cover"
+msgstr ""
+
+#: inc/options/controls/dropdown-sidebars.php:25
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/options/controls/typography.php:66
+msgid "Thin 100"
+msgstr ""
+
+#: inc/options/controls/typography.php:67
+msgid "Thin 100 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:68
+msgid "Extra-light 200"
+msgstr ""
+
+#: inc/options/controls/typography.php:69
+msgid "Extra-light 200 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:70
+msgid "Light 300"
+msgstr ""
+
+#: inc/options/controls/typography.php:71
+msgid "Light 300 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:72
+#: inc/options/controls/typography.php:74
+msgid "Normal 400"
+msgstr ""
+
+#: inc/options/controls/typography.php:73
+#: inc/options/controls/typography.php:75
+msgid "Normal 400 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:76
+msgid "Medium 500"
+msgstr ""
+
+#: inc/options/controls/typography.php:77
+msgid "Medium 500 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:78
+msgid "Semi-bold 600"
+msgstr ""
+
+#: inc/options/controls/typography.php:79
+msgid "Semi-bold 600 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:80
+msgid "Bold 700"
+msgstr ""
+
+#: inc/options/controls/typography.php:81
+msgid "Bold 700 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:82
+msgid "Extra-bold 800"
+msgstr ""
+
+#: inc/options/controls/typography.php:83
+msgid "Extra-bold 800 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:84
+msgid "Ultra-bold 900"
+msgstr ""
+
+#: inc/options/controls/typography.php:85
+msgid "Ultra-bold 900 italic"
+msgstr ""
+
+#: inc/options/controls/typography.php:89
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/options/controls/typography.php:90
+msgid "Greek"
+msgstr ""
+
+#: inc/options/controls/typography.php:91
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/options/controls/typography.php:92
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/options/controls/typography.php:93
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/options/controls/typography.php:94
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/options/controls/typography.php:95
+msgid "Latin"
+msgstr ""
+
+#: inc/options/controls/typography.php:112
+msgid "Font Family"
+msgstr ""
+
+#: inc/options/controls/typography.php:134
+msgid "Font Size (px)"
+msgstr ""
+
+#: inc/options/controls/typography.php:146
+msgid "Line_height (px)"
+msgstr ""
+
+#: inc/options/controls/typography.php:157
+msgid "Font Weight & Style"
+msgstr ""
+
+#: inc/options/controls/typography.php:182
+msgid "Font subsets"
+msgstr ""
+
+#. Name of the theme
+msgid "Finance"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Finance is a clean and professional site template, perfect for ,  any "
+"business and personal chef web sites. Built on the Advanced Bootstrap 3 "
+"framework with HTML5 / CSS3. Its responsive too – Will fit great on all "
+"devices. More features with 5 Homepages (Full Screen, One Page, Video One "
+"Page, Video Full Screen One Page, Full Screen One Page, Parallax, Video "
+"Parallax, Video Full Screen),  and much more gives you more space to work "
+"with and also with a few lines of code"
+msgstr ""
+
+#. URI of the theme
+msgid "http://corpthemes.com/wordpress/finance/"
+msgstr ""
+
+#. Author of the theme
+msgid "Themesflat"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/themesflat/portfolio"
+msgstr ""

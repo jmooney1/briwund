@@ -1,0 +1,47 @@
+
+/* Edit metabox admin
+-------------------------------------------------------------- */
+.rwmb-field {
+    margin: 0 0 10px;
+    border-top: 1px solid #f5f5f5 !important;
+    padding: 20px 0;
+}
+
+.rwmb-label {
+	font-weight: bold !important;
+	color: #23282d !important;
+	font-size: 14px;
+}
+
+.description {
+    font-size: 12px !important;
+    color: #999 !important;
+    margin: 15px 0 15px 0 !important;
+    font-style: italic !important;
+}
+
+#poststuff .stuffbox>h3, 
+#poststuff h2, 
+#poststuff h3.hndle {
+    border-bottom: 0 !important;
+    font-size: 16px;
+}
+
+/* please wait*/
+.loader {
+    background: url(../../images/pleasewait.gif);
+    display: inline-block;
+    width: 94px;
+    height: 31px;
+    background-repeat: no-repeat;
+}
+
+.hide_load {
+    display: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+

@@ -1,0 +1,537 @@
+@font-face {
+  font-family: 'fo';
+  src:  url('font/FO.eot?vig3mh');
+  src:  url('font/FO.eot?vig3mh#iefix') format('embedded-opentype'),
+    url('font/FO.ttf?vig3mh') format('truetype'),
+    url('font/FO.woff?vig3mh') format('woff'),
+    url('font/FO.svg?vig3mh#FO') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icfo-"], [class*=" icfo-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fo' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icfo-atm-1:before {
+  content: "\e900";
+}
+.icfo-atm-2:before {
+  content: "\e901";
+}
+.icfo-atm:before {
+  content: "\e902";
+}
+.icfo-bag-1:before {
+  content: "\e903";
+}
+.icfo-bag-2:before {
+  content: "\e904";
+}
+.icfo-bag-3:before {
+  content: "\e905";
+}
+.icfo-bag-4:before {
+  content: "\e906";
+}
+.icfo-bag-5:before {
+  content: "\e907";
+}
+.icfo-bag-6:before {
+  content: "\e908";
+}
+.icfo-bag:before {
+  content: "\e909";
+}
+.icfo-bank:before {
+  content: "\e90a";
+}
+.icfo-barbershop:before {
+  content: "\e90b";
+}
+.icfo-barcode-1:before {
+  content: "\e90c";
+}
+.icfo-barcode:before {
+  content: "\e90d";
+}
+.icfo-basket-1:before {
+  content: "\e90e";
+}
+.icfo-basket-2:before {
+  content: "\e90f";
+}
+.icfo-basket:before {
+  content: "\e910";
+}
+.icfo-box-1:before {
+  content: "\e911";
+}
+.icfo-box-2:before {
+  content: "\e912";
+}
+.icfo-box-3:before {
+  content: "\e913";
+}
+.icfo-box:before {
+  content: "\e914";
+}
+.icfo-briefcase-1:before {
+  content: "\e915";
+}
+.icfo-briefcase:before {
+  content: "\e916";
+}
+.icfo-calculator:before {
+  content: "\e917";
+}
+.icfo-cart-1:before {
+  content: "\e918";
+}
+.icfo-cart-2:before {
+  content: "\e919";
+}
+.icfo-cart-3:before {
+  content: "\e91a";
+}
+.icfo-cart-4:before {
+  content: "\e91b";
+}
+.icfo-cart-5:before {
+  content: "\e91c";
+}
+.icfo-cart-6:before {
+  content: "\e91d";
+}
+.icfo-cart-7:before {
+  content: "\e91e";
+}
+.icfo-cart-8:before {
+  content: "\e91f";
+}
+.icfo-cart-9:before {
+  content: "\e920";
+}
+.icfo-cart-10:before {
+  content: "\e921";
+}
+.icfo-cart-11:before {
+  content: "\e922";
+}
+.icfo-cart-12:before {
+  content: "\e923";
+}
+.icfo-cart-13:before {
+  content: "\e924";
+}
+.icfo-cart-14:before {
+  content: "\e925";
+}
+.icfo-cart-15:before {
+  content: "\e926";
+}
+.icfo-cart-16:before {
+  content: "\e927";
+}
+.icfo-cart-17:before {
+  content: "\e928";
+}
+.icfo-cart:before {
+  content: "\e929";
+}
+.icfo-cashier-1:before {
+  content: "\e92a";
+}
+.icfo-cashier:before {
+  content: "\e92b";
+}
+.icfo-change:before {
+  content: "\e92c";
+}
+.icfo-check:before {
+  content: "\e92d";
+}
+.icfo-coin-1:before {
+  content: "\e92e";
+}
+.icfo-coin-2:before {
+  content: "\e92f";
+}
+.icfo-coin-3:before {
+  content: "\e930";
+}
+.icfo-coin-4:before {
+  content: "\e931";
+}
+.icfo-coin-5:before {
+  content: "\e932";
+}
+.icfo-coin-6:before {
+  content: "\e933";
+}
+.icfo-coin-7:before {
+  content: "\e934";
+}
+.icfo-coin-8:before {
+  content: "\e935";
+}
+.icfo-coin-9:before {
+  content: "\e936";
+}
+.icfo-coin-10:before {
+  content: "\e937";
+}
+.icfo-coin:before {
+  content: "\e938";
+}
+.icfo-coins-1:before {
+  content: "\e939";
+}
+.icfo-coins:before {
+  content: "\e93a";
+}
+.icfo-crate-1:before {
+  content: "\e93b";
+}
+.icfo-crate-2:before {
+  content: "\e93c";
+}
+.icfo-crate-3:before {
+  content: "\e93d";
+}
+.icfo-crate-4:before {
+  content: "\e93e";
+}
+.icfo-crate-5:before {
+  content: "\e93f";
+}
+.icfo-crate:before {
+  content: "\e940";
+}
+.icfo-credit-card-1:before {
+  content: "\e941";
+}
+.icfo-credit-card-2:before {
+  content: "\e942";
+}
+.icfo-credit-card-3:before {
+  content: "\e943";
+}
+.icfo-credit-card-4:before {
+  content: "\e944";
+}
+.icfo-credit-card-5:before {
+  content: "\e945";
+}
+.icfo-credit-card-6:before {
+  content: "\e946";
+}
+.icfo-credit-card:before {
+  content: "\e947";
+}
+.icfo-delivery-cart-1:before {
+  content: "\e948";
+}
+.icfo-delivery-cart:before {
+  content: "\e949";
+}
+.icfo-diagram-1:before {
+  content: "\e94a";
+}
+.icfo-diagram-2:before {
+  content: "\e94b";
+}
+.icfo-diagram-3:before {
+  content: "\e94c";
+}
+.icfo-diagram:before {
+  content: "\e94d";
+}
+.icfo-folder-1:before {
+  content: "\e94e";
+}
+.icfo-folder:before {
+  content: "\e94f";
+}
+.icfo-get-money:before {
+  content: "\e950";
+}
+.icfo-graph-1:before {
+  content: "\e951";
+}
+.icfo-graph-2:before {
+  content: "\e952";
+}
+.icfo-graph-3:before {
+  content: "\e953";
+}
+.icfo-graph-4:before {
+  content: "\e954";
+}
+.icfo-graph-5:before {
+  content: "\e955";
+}
+.icfo-graph-6:before {
+  content: "\e956";
+}
+.icfo-graph-7:before {
+  content: "\e957";
+}
+.icfo-graph-8:before {
+  content: "\e958";
+}
+.icfo-graph:before {
+  content: "\e959";
+}
+.icfo-grocery-1:before {
+  content: "\e95a";
+}
+.icfo-grocery:before {
+  content: "\e95b";
+}
+.icfo-insert-coin:before {
+  content: "\e95c";
+}
+.icfo-investment:before {
+  content: "\e95d";
+}
+.icfo-justice-scale:before {
+  content: "\e95e";
+}
+.icfo-justice:before {
+  content: "\e95f";
+}
+.icfo-megaphone:before {
+  content: "\e960";
+}
+.icfo-money:before {
+  content: "\e961";
+}
+.icfo-notes-1:before {
+  content: "\e962";
+}
+.icfo-notes-2:before {
+  content: "\e963";
+}
+.icfo-notes:before {
+  content: "\e964";
+}
+.icfo-open:before {
+  content: "\e965";
+}
+.icfo-pack:before {
+  content: "\e966";
+}
+.icfo-pie-chart-1:before {
+  content: "\e967";
+}
+.icfo-pie-chart-2:before {
+  content: "\e968";
+}
+.icfo-pie-chart-3:before {
+  content: "\e969";
+}
+.icfo-pie-chart-4:before {
+  content: "\e96a";
+}
+.icfo-pie-chart-5:before {
+  content: "\e96b";
+}
+.icfo-pie-chart-6:before {
+  content: "\e96c";
+}
+.icfo-pie-chart:before {
+  content: "\e96d";
+}
+.icfo-piggy-bank-1:before {
+  content: "\e96e";
+}
+.icfo-piggy-bank:before {
+  content: "\e96f";
+}
+.icfo-point-of-service:before {
+  content: "\e970";
+}
+.icfo-poor:before {
+  content: "\e971";
+}
+.icfo-presentation-1:before {
+  content: "\e972";
+}
+.icfo-presentation-2:before {
+  content: "\e973";
+}
+.icfo-presentation-3:before {
+  content: "\e974";
+}
+.icfo-presentation-4:before {
+  content: "\e975";
+}
+.icfo-presentation-5:before {
+  content: "\e976";
+}
+.icfo-presentation-6:before {
+  content: "\e977";
+}
+.icfo-presentation-7:before {
+  content: "\e978";
+}
+.icfo-presentation-8:before {
+  content: "\e979";
+}
+.icfo-presentation-9:before {
+  content: "\e97a";
+}
+.icfo-presentation-10:before {
+  content: "\e97b";
+}
+.icfo-presentation-11:before {
+  content: "\e97c";
+}
+.icfo-presentation-12:before {
+  content: "\e97d";
+}
+.icfo-presentation-13:before {
+  content: "\e97e";
+}
+.icfo-presentation-14:before {
+  content: "\e97f";
+}
+.icfo-presentation-15:before {
+  content: "\e980";
+}
+.icfo-presentation-16:before {
+  content: "\e981";
+}
+.icfo-presentation-17:before {
+  content: "\e982";
+}
+.icfo-presentation-18:before {
+  content: "\e983";
+}
+.icfo-presentation-19:before {
+  content: "\e984";
+}
+.icfo-presentation:before {
+  content: "\e985";
+}
+.icfo-price-tag-1:before {
+  content: "\e986";
+}
+.icfo-price-tag-2:before {
+  content: "\e987";
+}
+.icfo-price-tag-3:before {
+  content: "\e988";
+}
+.icfo-price-tag-4:before {
+  content: "\e989";
+}
+.icfo-price-tag-5:before {
+  content: "\e98a";
+}
+.icfo-price-tag-6:before {
+  content: "\e98b";
+}
+.icfo-price-tag-7:before {
+  content: "\e98c";
+}
+.icfo-price-tag-8:before {
+  content: "\e98d";
+}
+.icfo-price-tag-9:before {
+  content: "\e98e";
+}
+.icfo-price-tag:before {
+  content: "\e98f";
+}
+.icfo-receipt:before {
+  content: "\e990";
+}
+.icfo-record:before {
+  content: "\e991";
+}
+.icfo-rewind-time:before {
+  content: "\e992";
+}
+.icfo-rich:before {
+  content: "\e993";
+}
+.icfo-safebox-1:before {
+  content: "\e994";
+}
+.icfo-safebox-2:before {
+  content: "\e995";
+}
+.icfo-safebox-3:before {
+  content: "\e996";
+}
+.icfo-safebox-4:before {
+  content: "\e997";
+}
+.icfo-safebox:before {
+  content: "\e998";
+}
+.icfo-stamp-1:before {
+  content: "\e999";
+}
+.icfo-stamp:before {
+  content: "\e99a";
+}
+.icfo-stand:before {
+  content: "\e99b";
+}
+.icfo-store-1:before {
+  content: "\e99c";
+}
+.icfo-store-2:before {
+  content: "\e99d";
+}
+.icfo-store-3:before {
+  content: "\e99e";
+}
+.icfo-store:before {
+  content: "\e99f";
+}
+.icfo-strongbox:before {
+  content: "\e9a0";
+}
+.icfo-suitcase-1:before {
+  content: "\e9a1";
+}
+.icfo-suitcase-2:before {
+  content: "\e9a2";
+}
+.icfo-suitcase:before {
+  content: "\e9a3";
+}
+.icfo-time-is-money:before {
+  content: "\e9a4";
+}
+.icfo-time-passing:before {
+  content: "\e9a5";
+}
+.icfo-wallet-1:before {
+  content: "\e9a6";
+}
+.icfo-wallet-2:before {
+  content: "\e9a7";
+}
+.icfo-wallet:before {
+  content: "\e9a8";
+}
+.icfo-yen:before {
+  content: "\e9a9";
+}
+

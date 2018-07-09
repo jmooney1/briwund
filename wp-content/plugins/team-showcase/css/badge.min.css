@@ -1,0 +1,5 @@
+.ts-badge-style .tshowcase-box-details{font-size:.9em;margin-top:-5px}.ts-badge-style .tshowcase-box-details::before{content:'___';color:#69c;text-align:center;padding:0;margin:3px 0}
+.ts-badge-style .tshowcase-box-title{padding:3px 5px;background-color:#69c;color:#FFF;border-radius:2px;font-size:1em;white-space:nowrap}
+.ts-badge-style .tshowcase-box-title a{text-decoration:none;border:0;color:#FFF}.ts-badge-style .tshowcase-box-title:hover{background-color:#69d}
+.ts-badge-style .tshowcase-box-social{padding:3px 0}
+/*# sourceMappingURL=badge.min.css.map */

@@ -1,0 +1,410 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>5sec Google Maps Pro Documentation</title>
+  <meta name="description" content="5sec Google Maps Pro WordPress plugin documentation by Web factory Ltd. Sold exclusively on CodeCanyon.">
+  <meta name="lang" content="en">
+  <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+  <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+  <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+</head>
+<body>
+  <div class="container">
+    <h3 class="center alt">&ldquo;5sec Google Maps Pro&rdquo; Documentation by &ldquo;Web factory Ltd&rdquo; v1.41</h3>
+    <hr>
+    <h1 class="center">&ldquo;5sec Google Maps Pro&rdquo; WordPress plugin</h1>
+    <div class="borderTop">
+      <div class="span-6 colborder info prepend-1">
+        <p class="prepend-top"><b>
+          Created: 2014/03/22, revision 10<br>
+          By: Web factory Ltd<br>
+          Support: <a href="http://codecanyon.net/user/WebFactory#from">only via CodeCanyon</a></b>
+        </p>
+      </div><!-- end div .span-6 -->
+      <div class="span-12 last">
+        <p class="prepend-top append-0">Thank you very much for purchasing our premium WordPress plugin. If you have any questions that are beyond the scope of this help file, please feel free to email us via our user page <a href="http://codecanyon.net/user/webfactory#from">contact form</a>. Have a good one!</p>
+      </div>
+    </div><!-- end div .borderTop -->
+  </div><!-- end div .container -->
+  <div class="container">
+    <h2 id="toc" class="alt">Table of Contents</h2>
+    <ol class="alpha">
+      <li><a href="#">Installation &amp; upgrade</a></li>
+      <li><a href="#">5sec getting started guide</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Using the map builder</a></li>
+      <li><a href="#">Shortcode parameters</a></li>
+      <li><a href="#">Advanced usage</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Sources and Credits</a></li>
+      <li><a href="http://5sec-google-maps-pro.webfactoryltd.com/" target="_blank">Online demo and examples</a></li>
+    </ol>
+  </div><!-- end div .container -->
+
+
+  <div class="container">
+<h3 class="numerate"><strong>Installation &amp; upgrade</strong> - <a href="#toc">top</a></h3>
+<p class="error">5sec Google Maps Pro requires <b>WordPress v4.2 or higher</b> to function properly!</p>
+
+<h4>Installation</h4>
+<ol>
+<li>Download the ZIP package from CodeCanyon.</li>
+<li>Open WordPress admin and go to Plugins -&gt; Add New -&gt; Upload. Browse for the ZIP file <em>5sec-google-maps-pro.zip</em> on your computer and click "Install Now".</li>
+<li>Activate the plugin.</li>
+</ol>
+
+<h4>Upgrade - method #1, it wont reset plugin's settings or delete saved maps</h4>
+<ol>
+<li>Do NOT deactivate the plugin.</li>
+<li>Use FTP to locate folder <i>wp-content/plugins/5sec-google-maps-pro/</i></li>
+<li>Overwrite all files in that folder with new ones downloaded from CodeCanyon</li>
+</ol>
+
+<h4>Upgrade - method #2, it will reset plugin's settings and delete saved maps (shortcodes in pages/posts wont be touched)</h4>
+<ol>
+<li>Deactivate and delete the plugin in your WP admin -&gt; Plugins.</li>
+<li>Use the Add New -&gt; Upload function to upload the new plugin ZIP file.</li>
+<li>Activate the plugin.</li>
+</ol>
+
+  </div><!-- end div .container -->
+
+    <div class="container">
+<h3 class="numerate"><strong>5sec getting started guide</strong> - <a href="#toc">top</a></h3>
+<p>Install and active the plugin. No need to change any settings unless the plugin warns you of a shortcode name conflict. In that case you have to disable other map plugins or change our shortcode name in the settings. Open any page, post or text widget.</p>
+
+<p>Map builder is the quickest way to create a new map however for a quick start use this shortcode to get a nice map centered over New York (with a bouncing pin) and Washington;</p>
+<pre>
+[map width="100%" height="400px" autofit="1"]
+  [pin bounce="1"]New York, USA[/pin]
+  [pin]Washington, USA[/pin]
+[/map]
+
+</pre>
+
+<p>All options in the map builder have in-line help - just click the question mark icon or familiarize yourself with them by reading the rest of this document.</p>
+
+  </div><!-- end div .container -->
+
+
+  <div class="container">
+  <h3 class="numerate"><strong>Settings</strong> - <a href="#toc">top</a></h3>
+
+<p>Plugin settings are available under the <span class="highlight-code">Settings - 5sec Google Maps Pro</span> menu. Following settings can be adjusted;</p>
+
+<ul>
+<li><b>Map shortcode</b> - if the default shortcode "map" is taken by another plugin or you simply don't like the default shortcode change it to something else. Please be resonable and use only alpha-num characters.</li>
+<li><b>Pin shortcode</b> - if the default shortcode "pin" is taken by another plugin or you simply don't like the default shortcode change it to something else. Please be resonable and use only alpha-num characters.</li>
+<li><b>Google Maps API key</b> - API key is not required if you keep the map usage within <a href="https://developers.google.com/maps/documentation/business/articles/usage_limits" target="_blank">Google's limits</a> which is about 100,000 requests per day. If not please create a key using <a href="https://console.developers.google.com/project" target="blank">Google Developers Console</a>.</li>
+<li><b>Include jQuery</b> - if you're experiencing problems with double jQuery include disable this option. Otherwise always keep it enabled. If you have to disable this option your theme or some plugin(s) are poorly coded.</li>
+<li><b>Include Google Maps API JS</b> - if your theme or other plugin already includes Maps JS disable this option otherwise keep it enabled because the maps wont work.</li>
+<li><b>Apply map CSS fix</b> - unless you applied the fixes manually or you're bothered with a few lines of CSS in your header keep this option enabled. Fixes are applied only to the map and don't change any other elements on the site.</li>
+<li><b>Automatically load maps</b> - if you want to load maps within another plugin disable this option and use <i>wf_gmp_load_map( map number 1-N )</i> function to load them. Try using the option below if you have maps hidden in a tab.</li>
+<li><b>Detect Visibility Fix</b> - if you are using maps in tabs or some similar environment where they are initially hidden check this options. Default: unchecked.</li>
+</ul>
+
+<p>All other setting are configured via the shortcode on a per-map basis.</p>
+    </div><!-- end div .container -->
+
+    <div class="container">
+<h3 class="numerate"><strong>Using the map builder</strong> - <a href="#toc">top</a></h3>
+<p>Map builder will help you to quickly build, preview and insert maps into content without having to know any shortcode parameter names.<br>
+The builder can be found under the content editor of posts, pages and all custom post types. Builder's left hand side controls the list of saved maps allowing you to save, load and delete as many maps as you need. Right hand side hold map properties as well as an arbitrary number of pins that will be placed on the map. Map preview is shown below it.<br>
+Each property has a blue question mark icon besides it that you can click and get quick info about it. Please remember that the map is not going to be visible in the post until you send the shortcode to the editor.</p>
+  </div><!-- end div .container -->
+
+ <div class="container">
+  <h3 class="numerate"><strong>Shortcode parameters</strong> - <a href="#toc">top</a></h3>
+
+<h4>Parameters for [map] shortcode;</h4>
+<table width="100%">
+<tr>
+ <th><b>Variable name</b></th>
+ <th><b>Description</b></th>
+ <th><b>Default&nbsp;</b></th>
+ <th><b>Acceptable values</b></th>
+</tr>
+<tr>
+ <td>width</td>
+ <td>Map canvas width.</td>
+ <td>100%</td>
+ <td>Any acceptable CSS value, ie: 200px, 300em, 60%. If you want the map to be responsive keep it on 100%.</td>
+</tr>
+<tr>
+ <td>height</td>
+ <td>Map canvas height.</td>
+ <td>400px</td>
+ <td>Any acceptable CSS value, ie: 200px, 300em, 60%. If a percentage value is used the container has to have a defined height.</td>
+</tr>
+<tr>
+ <td>zoom</td>
+ <td>Map zoom level.</td>
+ <td>14</td>
+ <td>0 - 21. If autofit option is enabled zoom level is ignored.</td>
+</tr>
+<tr>
+ <td>autofit</td>
+ <td>Automatically adjusts zoom level and map center to make all pins visible on the map.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>type</td>
+ <td>Usual map types you can use when viewing Google Maps.</td>
+ <td>roadmap</td>
+ <td>roadmap, satellite, hybrid, terrain</td>
+</tr>
+<tr>
+ <td>fullscreen</td>
+ <td>Adds the fullscreen toggle button in the top-right corner of the map.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>color</td>
+ <td>Paints the whole map in defined color (basically ads hue). It partially overrides the skin option.</td>
+ <td><i>none</i></td>
+ <td>CSS RGB color notation - #RRGGBB</td>
+</tr>
+<tr>
+ <td>skin</td>
+ <td>Predefined map color scheme that completely transforms the map appearance.</td>
+ <td><i>none</i></td>
+ <td>default, apple, blue, bright, gowalla, gray, gray2, light, mapbox, pale, paper</td>
+</tr>
+<tr>
+ <td>traffic</td>
+ <td>Adds the traffic layer to the map. Please note that certain layers are not available on all locations.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>transit</td>
+ <td>Adds the transit layer to the map. Please note that certain layers are not available on all locations.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>weather</td>
+ <td>Adds the weather layer to the map. Please note that certain layers are not available on all locations.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>clouds</td>
+ <td>Adds the clouds layer to the map. Please note that certain layers are not available on all locations.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>bicycle</td>
+ <td>Adds the bicycle layer to the map. Please note that certain layers are not available on all locations.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>disable_scrollwheel</td>
+ <td>If enabled mouse wheel is disabled on the map.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>lock_map</td>
+ <td>Removes all map controls and completely locks it disabling zoom, pan, mouse wheel and mouse clicking. Great for use on mobile sites.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>post_id</td>
+ <td>If you're using custom field values in a widget or want to force another post ID different from the post you're currently in then set this option.</td>
+ <td>current post/page ID</td>
+ <td>int; valid post ID</td>
+</tr>
+<tr>
+ <td>debug</td>
+ <td>Displays various variables used in the process of map building.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tfoot>
+<tr>
+ <td><b>Variable name</b></th>
+ <td><b>Description</b></th>
+ <td><b>Default&nbsp;</b></th>
+ <td><b>Acceptable values</b></th>
+</tr>
+</tfoot>
+</table>
+
+<h4>Parameters for [pin] shortcode;</h4>
+<table width="100%">
+<tr>
+ <th><b>Variable name</b></th>
+ <th><b>Description</b></th>
+ <th><b>Default&nbsp;</b></th>
+ <th><b>Acceptable values</b></th>
+</tr>
+<tr>
+ <td>address</td>
+ <td>Pin address.<br />You can enter the address via this variable or between the [pin][/pin] tags). lat, lng coordinates are also supported.</td>
+ <td><i>none</i></td>
+ <td>Any address in the world that can be understood by Google Geocoding API.</td>
+</tr>
+<tr>
+ <td>center</td>
+ <td>Centers map over the pin. If map's autofit option is enabled this is ignored. By default first pin is used to center.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>bounce</td>
+ <td>Bounces (animates) map pin.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>icon</td>
+ <td>Icon/marker for pin.</td>
+ <td>default (Google's red pin)</td>
+ <td>Predefined pins: blue, blue2, blue3, red, red2, yellow, yellow2, green, green2, pink, purple, orange, grey, black, white, house, shop, chat, flag, star, food, nuclear, none, default. You can also enter the full URL to any image (size about 35*35px).</td>
+</tr>
+<tr>
+ <td>tooltip</td>
+ <td>Small, text-only tooltip shown when mouse hovers over pin.</td>
+ <td>pin address</td>
+ <td>Any text.</td>
+</tr>
+<tr>
+ <td>description</td>
+ <td>Large bubble/popup available on pin click. If you want to style it, target it with "gmp_infowindow" class. Only one description can be open at a time.</td>
+ <td><i>none</i></td>
+ <td>Any text or HTML. If you put in just the ID of a page/post then its content will be shown in the description.</td>
+</tr>
+<tr>
+ <td>show_description</td>
+ <td>Open description bubble immediately after map is loaded. Only one pin at a time can have the description open.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tr>
+ <td>directions</td>
+ <td>Adds directions form (to and from pin's address) into description bubble.</td>
+ <td>0</td>
+ <td>0, 1</td>
+</tr>
+<tfoot>
+<tr>
+ <td><b>Variable name</b></th>
+ <td><b>Description</b></th>
+ <td><b>Default&nbsp;</b></th>
+ <td><b>Acceptable values</b></th>
+</tr>
+</tfoot>
+</table>
+
+    </div><!-- end div .container -->
+
+ <div class="container">
+    <h3 class="numerate"><strong>Advanced usage</strong> - <a href="#toc">top</a></h3>
+
+<h4>Using post/page content for pin description/bubble</h4>
+<p>If you want to place a large amount of text in the pin description the easiest way to do it is to create a new post/page with that content and put the page ID as the only content of the pin description. Example:</p>
+<pre>[map]
+  [pin description="485"]New York, USA[/pin]
+[/map]
+</pre>
+<p>You can still use the "directions" parameter to add directions form to that content. Easiest way to find out a page's ID is to edit it and then look into the address bar. The ID will be visible after "post=" text.</p>
+
+    <h4>Using custom post fields as shortcode parameters</h4>
+    <p>Instead of the usual <i>parameter="value"</i> syntax inside the shortcode use <i>parameter="$custom_field_name"</i> where <i>custom_field_name</i> is the custom field name in the current post/page/custom post type.<br>
+The only thing to remember is: place the dollar sign ($) in front of the custom field name. Example:</p>
+<pre>[map]
+  [pin]$address-street $address-city $address-country[/pin]
+[/map]
+</pre>
+<p>The post ID will be auto-detected, but if needed, enter it manually via "post_id" parameter (see section above for details). If you want to use the dollar sign as a literal character just place to dollars - $$.</p>
+
+ </div><!-- end div .container -->
+
+
+  <div class="container">
+    <h3 class="numerate"><strong>FAQ</strong> - <a href="#toc">top</a></h3>
+
+<h4>Plugin not initializing - <em>wp_footer()</em> issue</h4>
+<p>In order to work properly plugin requires <em>wp_footer()</em> function call in theme <em>footer.php</em> file. If you don't have that function call most plugins wont work and it means your theme is really poorly coded.<br>
+If your theme doesn't have that code place this code just above the &lt;/body&gt; tag:
+<br><code>&lt;?php wp_footer(); ?&gt;</code></p>
+
+<h4>Plugin not initializing - jQuery issue</h4>
+<p>Try disabling the "include jQuery" option in settings.</p>
+
+<h4>Shortcode name conflict</h4>
+<p>If another plugin is using the [map] or [pin] shortcode you have to either disable that plugin or change the shortcode 5sec Google Maps Pro uses. Simply open Settings -&gt; 5sec Google Maps Pro and change shortcode names.</p>
+
+<h4>Pin description on map is broken</h4>
+<p>Theme's CSS is applied to the description/bubble and thus doesn't look like you want it to. Use the "gmp_infowindow" class to apply and CSS rules you need for the description.</p>
+
+<h4>Some parts of the map GUI are broken</h4>
+<p>Enable "apply CSS fix" option in plugin's settings.</p>
+
+<h4>I entered location X as the address, but map shows location Y</h4>
+<p>Google didn't understand your address. Try writing it in more detail. Don't forget the city and country name.</p>
+
+<h4>Can I place multiple markers/addresses on the same map?</h4>
+<p>Sure! Use the map builder or read about the syntax in this document.</p>
+
+<h4>Can I place multiple maps on the same page/post/screen?</h4>
+<p>Yes, as many as you like!</p>
+
+<h4>I'm getting some XML fetch/parse errors</h4>
+<p>Google Maps API is probably down. This happens rarely and lasts only for a couple of minutes. Be patient for a while.</p>
+
+<h4>Do parameters/variables have to be entered in any particular order?</h4>
+<p>No, you can define them in any order you like.</p>
+
+<h4>I'm using maps in tabs and they are not displayed correctly</h4>
+<p>Depending on the JS code you use for tabs Google Maps may not display correctly, more so if they are placed on a tab that's initially hidden. Disable the auto-load setting for map and initialize them manually. See setting section in this document for details.</p>
+
+  </div><!-- end div .container -->
+  <div class="container">
+    <h3 class="numerate"><strong>Sources and Credits</strong> - <a href="#toc">top</a></h3>
+    <p>5sec Google Maps Pro uses the following external assets:</p>
+    <ul>
+    <li>GMAP3 Plugin for JQuery<br>
+     Demonte Jean-Baptiste<br>
+     www.gmap3.net<br>
+     GPL v2</li>
+     <li>
+     Snazzy Maps - map skins<br>
+     various authors<br>
+     www.snazzymaps.com<br>
+     CC
+     </li>
+    <li>By using the Google Maps API you agree to their <a href="http://code.google.com/apis/maps/faq.html#tos">Terms of Service</a></li>
+    </ul>
+
+  </div><!-- end div .container -->
+    <div class="container">
+    <p>Once again, <strong>thank you</strong> so much for purchasing this premium WordPress plugin. As stated at the beginning, we'd be glad to help you if you have any questions relating to this plugin. We'll do our best to assist. If you have a more general question related to plugins on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p><br>
+    <div id="footer_logos"><a href="http://www.webfactoryltd.com/"><img class="footer-logo" src="assets/images/webfactory_logo.png" alt="Web Factory Ltd." /></a><a href="http://codecanyon.net/"><img class="footer-logo" src="assets/images/codecanyon_logo.png" alt="CodeCanyon" /></a></div>
+    <p class="footer-totop"><a href="#toc">Go To Table of Contents</a></p>
+   </div><!-- end div .container -->
+     <script type="text/javascript" src="assets/js/jquery.js"></script>
+     <script type="text/javascript">
+       $(document).ready(function(){
+         $('h3.numerate').each(function(i, element){
+           $('strong', element).prepend(String.fromCharCode(65 + i) + ') ');
+           $(element).attr('id', 'section-' + (i+1));
+         });
+
+         $('ol.alpha li').each(function(i, element){
+           if ($('a', element).attr('href') == '#' || $('a', element).attr('href') == '') {
+            $('a', element).attr('href', '#section-' + (i+1));
+           }
+         });
+       });
+  </script>
+</body>
+</html>

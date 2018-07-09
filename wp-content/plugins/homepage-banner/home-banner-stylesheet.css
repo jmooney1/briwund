@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+
+.private {
+color: #6E6A6B;
+}
+.register {
+background-color: #ff4d4d;
+color: #fff;
+padding-left: 10px;
+}
+.add-new-banner{
+	display: inline-block;
+  padding: 12px 12px;
+  border-radius: 6px;
+  border: 0;
+  font-weight: bold;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+  background: #46b450;
+  color: #fff;
+}
+.add-new-banner:hover{
+	 background: #b7b6cd;
+  color: #fff;
+}
+.homebanner {
+  max-width: 100%;
+  background-color: #eb812d;
+  padding-bottom: 10px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  background-image: 50% 50%;
+}
+.homebanner .banner {
+  background-color: white;
+  width: 100%;
+  image-position: 100% 100%;
+  display: inline-block;
+  display: none;
+  transition-property: opacity;
+  transition-duration: 5s;
+}
+.homebanner img {
+  width: 100%;
+  height: auto;
+  background-position: 50% 50%;
+}
+
+
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: 5px;
+}
+
+.prev {
+  left: 5px;
+}
+
+.banner > .homebanner-cover{
+ position: absolute;
+    background: rgba(140,174,210,0.85);
+    width: 46%;
+    height: 51%;
+    bottom: 9vw;
+    right: 0;
+}
+
+.home_header_1{
+    font-family: "Roboto",serif;
+  position: absolute;
+  color: white;
+  font-size: 65px;
+  top: 3vw;
+  line-height: 83px;
+  width: 70%;
+  font-weight: 200;
+  border-bottom: 3px solid white;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align:left;
+  font-weight: 300;
+}
+
+.home_header_1_long{
+  font-family: "Roboto",serif;
+  color: white;
+  font-size: 45px;
+  font-weight: 200;
+  text-align:left;
+  font-weight: 300;
+}
+
+.homebanner-cover a{
+  position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+}
+.homebanner-cover a span{
+  color: white !important;
+  font-size:20px;
+  font-weight: 300;
+}
+
+p.home_header_2{
+      position: absolute;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 19px;
+    width: 70%;
+    text-align: left;
+    top: 9vw;
+    margin-left: 10%;
+    font-weight: 300;
+}
+
+button.home_header_2{
+font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+  position: absolute;
+  top: 13vw;
+  border-radius: 0 !important;
+  background-color: #49308d;
+  border: 1px solid black;
+  color: white;
+  font-size: 25px;
+  left: 0;
+  padding: 5px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  cursor: pointer;
+}
+
+button.home_header_2:hover{
+  background-color:#726694;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1455px){
+
+p.home_header_2{
+  top:11vw;
+}
+
+.banner > .homebanner-cover{
+  width: 65%;
+}
+
+/*.homebanner{
+  height: 500px;
+}
+.home_header_1{
+  bottom: 27%;
+line-height:67px;
+  font-size: 3.1em;
+}
+button.home_header_2{
+  bottom: 8%;
+  font-size: 1.1em;
+}
+.homebanner-cover{
+  width: 4em;
+}*/
+
+}
+@media only screen and (max-width: 1110px){
+
+.home_header_1{
+  top:1vw;
+}
+
+p.home_header_2{
+  top: 10vw;
+}
+
+.homebanner-cover a{
+  bottom: 4%;
+}
+
+ /* .homebanner-cover{
+    width: 5em;
+  }
+  .home_header_1{
+    font-size: 4.5vw;
+    line-height: 1.5em;
+  }
+  button.home_header_2{
+    font-size: .9em;
+  }
+  .homebanner{
+    height: 400px;
+  }
+  .homebanner-cover{
+    width: 6em;
+  }*/
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+.banner > .homebanner-cover{
+  width: 100% !important;
+  height: 50%;
+  bottom: 0;
+}
+p.home_header_2{
+  display: none;
+}
+.page-title{
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 800px){
+  /*.homebanner-cover{
+    width: 100% !important;
+    height: 35vw !important;
+    bottom: 0;
+  }
+  .home_header_1{
+    width: 80%;
+    bottom: 13vw !important;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 6.5vw;
+    line-height: 9vw;
+  }
+  button.home_header_2{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    bottom: 5%;
+  }
+  .homebanner{
+    width: 100%;
+    height: auto;
+  }
+  #livesite_action_buttons a{
+    float: left !important;
+
+  }
+  #livesite_action_buttons div{
+    width: 200px;
+    margin: 20px;
+  }*/
+}
+
+
+@media only screen and (max-width: 640px){
+  .home_header_1{
+    font-size: 10vw;
+    top: -2vw;
+    line-height: 16vw;
+  }
+
+  }
+
+@media only screen and (max-width: 500px){
+  /*.header_1_lone{
+    font-size: 12.5vw;
+  }*/
+
+  }

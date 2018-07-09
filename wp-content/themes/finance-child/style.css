@@ -1,0 +1,827 @@
+/**
+ * Theme Name: Finance Child
+ * Description: Child theme for the FinanceFinance
+ * Author: Themesflat
+ * Template: finance
+ */
+
+ #logo > a > .site-logo{
+ 	width: 375px;
+ }
+
+
+
+.border{
+    border: 1px solid black;
+}
+.border.col-md-6 img{
+    width: 100%;
+}
+
+.recent-news-header{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+    background-color:#253267;
+}
+
+.topic-head-space{
+    height:40px;
+    width:100%;
+}
+
+.topic-header{
+    color:#05275e;
+    font-weight:300;
+    padding-bottom:15px;
+    font-size:35px;
+    padding-top:11px;
+}
+
+.topic-subheader{
+    padding-top: 15px;
+    color: #05275e;
+    font-size: 20px;
+}
+
+.headline{
+    color:#666666;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.margin-neg-ten{
+    padding-bottom:0px;
+    margin-bottom:-10px;
+}
+
+.support-header{
+    padding-top:55px;
+}
+
+
+.total-blue-text p{
+    color:#05275e !important;
+    margin-top: 20px;
+}
+
+
+.form-footing-spacer{
+    padding-bottom:50px;
+}
+
+.support-heading{
+    color:#828181;
+    font-size:23px;
+    margin-bottom: 0px;    
+    clear: both;
+}
+
+.primary-white-inset{
+    background-color:#FFFFFF;
+    margin-bottom:-45px;
+}
+
+.support-text{
+    font-size:16px;
+    color:#828181;
+}
+
+.aboutus-headspace{
+    height:55px;
+    width:100%;
+}
+
+.aboutus-feature-story{
+    text-align: center; 
+    margin-top: 46px; 
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size:18px;
+}
+
+.address{
+    padding-bottom:15px;
+}
+
+.hr-blue-short{
+    border:1px solid #8499bc;
+    height:0px;
+    width:40%;
+}
+/****************************************
+********* GENERAL OVERRIDES *************
+****************************************/
+.vc_sep_line{
+    border-top:2px solid #da8b15 !important;
+}
+
+.wpb_wrapper .p1{
+    padding-top:15px;
+    color:#05275e;
+    font-size:20px;    
+}
+
+
+.line{
+    height:2px !important;
+    margin-bottom:20px;
+}
+
+.vc_row{
+    margin-bottom: -10px;
+}
+
+#tshowcase_id_0{
+    padding-top:35px;
+}
+
+#tshowcase_id_0 img{
+    width:183px;
+}
+
+.ts-white-border{
+    border:none !important;
+    box-shadow:none !important;
+}
+
+.tshowcase-single-position{
+    font-size: 15px;
+    font-weight: 400;    
+}
+
+.tshowcase-box-title{
+    color:#05275e;
+    margin-top: 20px;
+}
+
+.recent-news li a{
+    color:#828181;
+    font-size:20px !important;
+    margin-bottom: 0px;    
+    clear: both;
+    font-weight:400;
+}
+
+.recent-news li p{
+    font-size:12px;
+    font-weight:500;
+}
+
+
+/****************************************
+********* /GENERAL OVERRIDES *************
+****************************************/
+
+/*************************
+* contact form 7 styles
+**************************/
+.wpcf7 input,textarea{
+    border:1px solid #666666;
+}
+
+.wpcf7 textarea{
+    height:410px;
+}
+
+.wpcf7 input{
+    height:38px;
+}
+
+.wpcf7 input[type="submit"],
+.wpcf7 select{
+    background-color:#05275e;
+    color:#FFFFFF;
+    height:30px;
+}
+.wpcf7 select{
+    padding:3px;
+    border-radius:6px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+.wpcf7 p{
+    padding:0px;
+    margin:0px;
+}
+/*************************
+* /contact form 7 styles
+**************************/
+
+#footer-left div{
+    color:#05275e;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#featured-story .flexslider {
+    margin: 29px 60px 0px 60px;
+    height: 430px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border: 0 !important;
+    box-shadow: none;
+}
+.featured{
+    background: white
+}
+.boxed{
+    width: 50%;
+    background: white;
+    float: right;
+    padding: 30px;
+}
+
+
+
+#featured-story > .flexslider .slides img{
+    width: 95% !important;
+    height: fit-content;
+}
+
+ .pad{
+ 	padding: 0 12px;
+ 	border-right: 1px solid black;
+ 	line-height:12px;
+ 	margin: 10px 0;
+ }
+ .end{
+ 	line-height:12px;
+ 	padding: 0 12px;
+ 	margin: 10px 0;
+ }
+  #text-block{
+		height: 344px !important;
+	}
+
+main{	
+    
+}
+
+.home-main{
+	background: #E3E4E5;  
+    font-size:16px;
+}
+
+.home-main strong.topic-subheader{
+    padding-top: 15px;
+    color: #05275e;
+    font-size: 14px;
+}
+
+ nav{
+ 	display: initial;
+ }
+
+ h3.left-line{
+ 	 position: relative;
+    z-index: 1;
+    /* text-transform: uppercase; */
+}
+
+.home-main h3.left-line{
+    text-transform: uppercase;   
+    margin: 60px 0;
+    padding-left:0px;
+}
+
+.home-main h3.left-line > span{
+    padding-left:0px;
+}
+
+h3.left-line:before {
+    border-top: 2px solid rgb(235, 130, 45);
+    content:"";
+    margin-left:auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+h3.left-line > span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    background: #E3E4E5; 
+    padding: 0 15px; 
+    color:#05275e;
+}
+
+ 
+h3.right-line{
+position: relative;
+z-index: 1;
+}
+h3.right-line:before {
+    border-top: 2px solid #dfdfdf;
+    content:"";
+    margin-right:auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+h3.right-line span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+    background: #fff; 
+    padding: 0 15px; 
+}
+ 
+ h3.center-line{
+ position: relative;
+    z-index: 1;
+    }
+    h3.center-line:before {
+        border-top: 2px solid #dfdfdf;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+    h3.center-line span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff; 
+        padding: 0 15px; 
+    }
+ 
+
+.top-cover{
+	height:150px;
+	width: 100%;
+	background: #243168;
+	bottom: 0;
+	margin-top: -10px;
+}
+
+ .nav-wrap > ul > li{
+
+ }
+ #featured-story{
+ 	background-image: url(/wp-content/uploads/2018/06/Asset-11.png);
+ 	background-size: cover;
+ 	height: 555px;
+ }
+
+ .left-line{
+ 	margin: 34px 0px 8px 0px;/* was @ 55, but margin forced oversized "blue box" */
+ }
+
+ .right-line{
+ 	margin: 55px 0;
+ }
+
+ .center-line{
+ 	margin: 55px 0;
+ }
+
+ #rev_slider_1_1_wrapper{
+ 	padding: 0 0 15px 0 !important;
+ }
+ #mainnav{
+ 	width: fit-content;
+ }
+ #logo{
+ 	width: 20%;
+ }
+
+ #half{
+ 	padding: 0;
+ }
+ #full{
+ 	margin: 20px 0;
+ }
+ #full .col-md-8{
+ 	padding: 0;
+ }
+#full div.col-md-12 a > img{
+	width: 100%;
+}
+#full .col-md-4{
+	padding: 0;
+}
+
+#content-top-block{
+ 	height: 280px;
+ 	background: #fff;
+
+ 	margin-top: -230px;
+    padding: 40px;
+ 	position:relative;
+ }
+
+
+
+
+ .category{
+ 	text-transform: uppercase;
+ }
+
+ ul{
+ 	    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+ }
+ .nav-right > div > img{
+ 	width: 75%;
+ }
+
+#text-block{
+	padding: 10px 25px !important;
+}
+.page-title{
+	padding: 34px 0 !important;
+}
+
+a span.read-more{
+	font-size: 17px;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 400;
+    color: #eb812d;
+}
+
+a span.read-more > img{
+	    margin-top: -4px;
+}
+
+ #mainnav > ul > li:nth-child(1),
+ #mainnav > ul > li:nth-child(2){
+ 	width: 18%;
+ 	text-align: center;
+ }
+ #mainnav > ul > li:nth-child(3),
+ #mainnav > ul > li:nth-child(4),
+ #mainnav > ul > li:nth-child(5){
+ 	width: 16%;
+ 	text-align: center;
+ }
+
+ #mainnav > ul > li > a{
+ 	line-height: 22px;
+ }
+
+ #content{
+ 	    background: #FFF;
+ }
+
+ .nav-wrap{
+ 	margin-top: 35px;
+ 	text-align: center;
+ }
+
+ #small-center > .caption{
+ 	text-align: center;
+ 	padding: 10px;
+    color:#05275e;
+ 
+ }
+
+ #menu-main-menu > li.menu-item > a{
+ 	padding: 0;
+ }
+#footer-left{
+	margin-top: 10px;
+}
+#footer-right{
+	text-align: center
+}
+ footer{
+ 
+ }
+
+ #blue-box{
+ 	/*background: #8CAED2;*/
+ }
+
+ .footer-main .footer-seperator{
+    height: 15px;
+    width: 100%;
+    background-color: #203066;
+ }
+
+
+  #content-top-block h2{
+    position: relative;
+    z-index: 1;
+    /*text-transform: uppercase;*/
+
+ }
+
+ #content-top-block h2:before{
+    border-top: 2px solid #333;
+        content:"";
+        margin-left:auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+ }
+ #content-top-block h2 span{
+     /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #fff;
+     padding: 0; 
+    font-size: 50px;
+    font-weight: 300;
+    color: #666666;
+    padding: 10px;
+ }
+
+ #content-top-block #content{
+    font-size: 20px;
+    padding: 20px;
+ }
+
+
+
+ #blue-box h3.left-line{
+ 	 position: relative;
+    z-index: 1;
+    /* text-transform: uppercase; */
+    }
+#blue-box h3.left-line:before {
+        border-top: 2px solid #fff;
+        content:"";
+        margin-left:auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 95%;
+        z-index: -1;
+    }
+
+#blue-box h3.left-line > span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+        background: #243168;
+     padding: 0; 
+    font-size: 51px;
+    color: white;
+    font-weight: 300;
+    }
+
+    .line{
+    	width: 100%;
+    	height: 1px;
+    }
+
+ #two-thirds #half #image-block img{
+ 	width: 100%;
+ }
+
+ #full #two-thirds img{
+ 	width: 100%;
+ }
+
+ form.wpcf7-form{
+    width: 100% !important;
+ }
+ form > p > label{
+    width: 100%;
+ }
+
+ #blue-box #half{
+ 	padding: 20px;
+ }
+
+ #blue-box .p1{
+ 	color: white;
+ }
+
+ #footer-left{
+	margin: 30px 0;
+ }
+
+ #footer-right{
+ 	margin: 30px 0;
+ }
+ #primary{
+    padding-bottom: 15px;
+    background-color: #eb812d;
+ }
+
+ #image-block > #half > img{
+ 	width: 100%;
+ }
+ #full > #half > img{
+		width: 100%;
+	}
+	#full div{
+		padding: 0;
+	}
+
+	#blue-box {
+		width: 100%;
+	}
+
+    #cover-image{
+        width: 100%;
+    }
+
+    ul.recent-news{
+        list-style-type:none;
+        margin-top: 20px;
+    }
+
+    .recent-news li{
+        padding: 10px;
+    }
+
+    .recent-news li a{
+        font-size: 18px;
+
+    }
+/*    .postsbycategory{
+        text-align:center;
+        line-height: 550px;
+    }*/
+
+    #half.border img.size-medium{
+        height: 344px;
+    }
+
+a{
+	cursor: pointer;
+}
+
+.widget.widget_nav_menu ul li {
+  margin: 20px 0;
+  padding: 13px 27px;
+   line-height: 35px;
+    font-size: 20px;
+    border: 1px solid #243168;
+    background-color: #fff;
+    font-weight: 600;
+    color: #243168 !important;
+    width:300px;
+
+}
+
+
+
+
+.widget.widget_nav_menu ul li:hover {
+  margin: 20px 0;
+  padding: 13px 27px;
+   line-height: 35px;
+    font-size: 20px;
+    border: 1px solid #243168;
+    background-color: #243168;
+    font-weight: 600;
+    color: #243168 !important;
+    width:300px;
+    color: #fff;
+    cursor: pointer
+}
+
+.widget.widget_nav_menu ul li:hover a{
+	color: #fff;
+}
+
+.nav-wrap{
+	width: 62% !important;
+}
+
+th{
+    width: 33%;
+    height: 50px;
+}
+tr td{
+    text-align: left;
+}
+th{
+    background-color: #8AACD0;
+}
+td.title{
+    background-color: #8AACD0;
+}
+
+@media screen and (max-width: 1692px) {
+	.nav-wrap{
+		margin-top: 35px;
+	}
+}
+
+
+@media screen and (max-width: 1584px){
+	.nav-wrap{
+		margin-top: 22px;
+	}
+}
+
+@media screen and (max-width: 1400px){
+	#logo{
+		width: 22%;
+	}
+	.nav-wrap{
+		width: 58% !important;
+	}
+	.nav-right{
+		width: 20% !important;
+	}
+}
+
+
+@media screen and (max-width: 1199px) {
+     #half.border img.size-medium{
+        height: auto;
+    }
+	#text-block{
+		height: 421.5px !important;
+	}
+	#full #small-center{
+		margin: 0px 0px;
+		
+	}
+	#full div{
+		padding: 0;
+		width: 100%;
+	}
+	#small-center{
+		margin: 20px 0;
+	}
+	#full > div > img{
+		width: 100%;
+	}
+    #blue-box{
+        margin-top: -20px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+
+
+	.nav-right{
+		display: none !important;
+	}
+
+	#text-block{
+		height: auto !important;
+        display: block;
+	}
+
+	#logo{
+		width: auto !important;
+	}
+
+    #content-top-block{
+        height: auto;
+        margin-top: -115px;
+    }
+
+	.nav-wrap{
+		width: auto !important;
+		margin-top: auto !important;
+		float:right;
+		padding-right: 10px;
+	}
+
+
+
+	#image-block{
+		width: 100%;
+	}
+
+ 	#small-center > figure.wp-caption{
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ 	#full #small-center{
+		margin: 0px 0px;
+		
+	}
+	#full div{
+		padding: 0;
+	}
+	#small-center{
+		margin: 20px 0;
+	}
+	#full > div > img{
+		width: 100%;
+	}
+ }
+
+
+ @media screen and (max-width: 400px){
+    #logo > a > .site-logo{
+        width: 300px;
+    }
+ }
+
+
+
+ @media only screen and (max-width: 800px){
+     .nested-table {
+         font-size:1.5vw;
+     }
+ }
+
+

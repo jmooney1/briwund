@@ -1,0 +1,421 @@
+/*
+* Repeatable Patterns
+* flat-top
+*/
+.customize-control {
+    float: none;
+}
+
+.customize-control input[type=tel], 
+.customize-control input[type=url], 
+.customize-control input[type=text], 
+.customize-control input[type=password], 
+.customize-control input[type=email], 
+.customize-control input[type=number], 
+.customize-control input[type=search] {
+	height: 35px;
+	line-height: 35px;
+	width: 100%;
+}
+
+#themesflat-options-control-social_links ul li {
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	display: inline-block;
+	background-color: #242424;
+	color: #fff;
+}
+
+#themesflat-options-control-social_links ul li.item-properties {
+	width: 100%;    
+    padding: 5px;
+    color: #333;
+    background: #fff;
+}
+
+#themesflat-options-control-social_links ul li.item-properties button {
+	position: relative;
+	top: 5px;
+}
+
+#themesflat-options-control-social_links ul li.active {
+	background: #0073aa;
+	color: #fff;
+}
+
+/* Thumb */
+.customize-control .thumbnail.thumbnail-image {
+	border: 2px solid #0085ba;
+	padding: 5px;
+}
+
+/* Radio images */
+.themesflat-options-control-radio-images {
+
+}
+
+.themesflat-options-control-radio-images input[type=radio] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+.themesflat-options-control-radio-images label {
+	display: inline-block;
+	margin: 5px 0;
+	border: 2px solid #0085ba;
+	padding: 5px;
+}
+
+.themesflat-options-control-radio-images label img {
+    width: 100%;
+}
+
+/* Title control */
+.themesflat-title-control {
+    position: relative;
+    text-transform: uppercase;    
+    background-color: #0085ba;
+    margin: 0 0 0 0;
+    color: #fff;
+    padding: 10px 5px 10px 5px;
+    margin-top: 20px;
+}
+
+li.first-child .themesflat-title-control {
+    margin-top: 0;
+}
+
+
+/* Desc control */
+p.themesflat-desc-control {
+    display: inline-block;   
+}
+
+.customize-category-select-control {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+
+
+/* Title option */
+/* switcher */
+.themesflat-options-control-switcher {
+	padding: 5px 0;
+}
+
+/* themesflat-options-control-inputs */
+.themesflat-options-control-chosen.typography-font .themesflat-options-control-inputs select,
+.themesflat-options-control-chosen.typography-font .themesflat-options-control-inputs input  {
+	height: 35px;
+	line-height: 35px;	
+	display: inline-block;
+	width: 100%;
+}
+
+.customize-control select {
+    height: 35px;
+    line-height: 35px;
+}
+
+.themesflat-options-control-chosen.typography-font .themesflat-options-control-inputs {
+	margin-bottom: 20px;
+}
+
+/* customizer.css*/
+/* Accordion  */
+.flat-accordion .flat-toggle {
+    margin-bottom: 10px;
+}
+
+.flat-accordion .flat-toggle .toggle-title.active:after {
+    font-family: "FontAwesome";
+    position: absolute;
+    font-size: 14px;
+    content: "\f077";
+    left: 20px;
+    top: 50%;
+    margin-top: -16px;
+    font-weight: normal;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: #0085ba;
+}
+
+.flat-accordion .flat-toggle .toggle-title:before {
+    font-family: "FontAwesome";
+    position: absolute;
+    font-size: 14px;
+    content: "\f078";
+    left: 20px;
+    top: 50%;
+    margin-top: -16px;
+    font-weight: normal;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: rgb(36,36,36);
+}
+
+.flat-accordion .flat-toggle .toggle-title.active:before {
+    display: none;
+}
+
+.flat-accordion .flat-toggle .toggle-title {
+    color: #a3a3a3;
+    background-color: rgba(36,36,36,0.9);
+    padding: 20px 20px 20px 70px;
+    position: relative;
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.flat-accordion .flat-toggle .toggle-content {
+    padding: 10px;
+    padding-top: 0;
+    border: 1px solid #f7f7f7;
+}
+
+/* Page option */
+.themesflat-options-control-power .themesflat-options-control-title {
+    color: #eee;
+}
+
+.themesflat-options-control-power .themesflat-options-control-title.active {
+  color: #222;
+}
+
+.themesflat-options-control-title {
+    display: block;
+    line-height: 30px;
+    white-space: nowrap;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+/* Switcher */
+.themesflat-power {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.themesflat-power input {display:none;}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+   -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #0085ba;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0085ba;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Accordion  */
+.themesflat-accordion .flat-toggle {
+    margin-bottom: 0px;
+}
+
+.themesflat-accordion .flat-toggle .toggle-title.active:after {
+    font-family: "FontAwesome";
+    position: absolute;
+    font-size: 14px;
+    content: "\f077";
+    left: 20px;
+    top: 50%;
+    margin-top: -16px;
+    font-weight: normal;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: #18ba60;
+}
+
+.themesflat-accordion .flat-toggle .toggle-title:before {
+    font-family: "FontAwesome";
+    position: absolute;
+    font-size: 14px;
+    content: "\f078";
+    left: 20px;
+    top: 50%;
+    margin-top: -16px;
+    font-weight: normal;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    background-color: rgb(36,36,36);
+}
+
+.themesflat-accordion .flat-toggle .toggle-title.active:before {
+    display: none;
+}
+
+.themesflat-accordion .flat-toggle .toggle-title {
+    color: #a3a3a3;
+    background-color: rgba(36,36,36,0.9);
+    padding: 20px 20px 20px 70px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1px;
+    font-size: 13px;
+}
+
+.themesflat-accordion .flat-toggle .toggle-content {
+    padding-left: 70px;
+    padding-top: 0;
+}
+
+.themesflat-options-control input[type="text"], 
+.themesflat-options-control input[type="email"], 
+.themesflat-options-control input[type="url"], 
+.themesflat-options-control input[type="tel"], 
+.themesflat-options-control input[type="password"], 
+.themesflat-options-control input[type="number"], 
+.themesflat-options-control textarea {
+    border: 1px solid #ddd;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 2px;
+    color: #777;
+    min-width: 300px;
+    padding: 0 10px;
+    font-size: 12px;
+    vertical-align: middle;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.05)
+}
+
+.themesflat-options-control input[type="text"]:focus, .themesflat-options-control input[type="email"]:focus, 
+.themesflat-options-control input[type="url"]:focus, .themesflat-options-control input[type="tel"]:focus, 
+.themesflat-options-control input[type="password"]:focus, .themesflat-options-control input[type="number"]:focus, 
+.themesflat-options-control textarea:focus {
+   border-color: #0085ba;
+}
+
+.themesflat-options-control textarea {
+    min-height: 100px;
+    min-width: 450px;
+    padding: 10px;
+    line-height: 1.8;
+}
+
+.themesflat-options-control img {
+  max-width: 100%;
+}
+
+/* radio images*/
+
+.themesflat-options-control-radio-images .themesflat-options-control-field {
+  clear: left;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field input[type="radio"] {
+  display: none;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field span {
+  float: left;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field span img {
+    opacity: 0.15;
+    -moz-opacity: 0.15;
+    -ms-opacity: 0.15;
+    -webkit-opacity: 0.15;
+    width: 100%;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field span:hover:after,
+.themesflat-options-control-radio-images .themesflat-options-control-field span:hover:before {
+  display: block;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field span:after {
+  content: attr(data-tooltip);
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  left: 0;
+  bottom: 110%;
+  padding: 7px 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.themesflat-options-control-radio-images .themesflat-options-control-field span:before {
+  border-top: 7px solid rgba(0,0,0,0.8);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -7px;
+  display: none;
+}
+
+.themesflat-options-control-radio-images .themesflat-options-control-field input[type="radio"]:checked + span img {
+  opacity: 1;
+  -moz-opacity: 1;
+  -ms-opacity: 1;
+  -webkit-opacity: 1;
+}
+
+/* image upload*/
+.themesflat-options-control .upload-preview {
+    border: 4px dashed #b4b9be;
+    padding: 20px;
+}
+
+.wp-admin .themesflat-options-control select {
+    height: 35px;
+    line-height: 35px;
+    width: 300px;
+}

@@ -1,0 +1,8 @@
+.ts-white-box-style .tshowcase-inner-box{display:inline-block;margin:0 auto;background:#fff;border:1px solid #CCC;box-shadow:3px 3px 0 0 rgba(0,0,0,0.2);padding:5px 5px 2px 5px;transition:.6s;-webkit-transition:.6s;-moz-transition:.6s;-o-transition:.6s;-ms-transition:.6s}
+.ts-white-box-style .tshowcase-inner-box:hover{-webkit-transform:scale(1.03);-moz-transform:scale(1.03);-ms-transform:scale(1.03);position:relative;z-index:5;transition:.6s;-webkit-transition:.6s;-moz-transition:.6s;-o-transition:.6s;-ms-transition:.6s}
+.ts-white-box-style .tshowcase-box-photo{padding:0;margin:0}.ts-white-box-style .ts-img-left img{padding:0 10px 0 0}
+.ts-white-box-style .ts-img-above img{padding:0}.ts-white-box-style .tshowcase-box-info{padding:2px 2px 10px 2px}
+.ts-white-box-style .tshowcase-box-title{font-weight:bold;font-size:1.1em;padding:3px}
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:link{color:#FFF;text-decoration:none}
+#tshowcase-hover-wrap .ts-white-box-style .tshowcase-box-title a:hover{color:#FFF;text-decoration:underline}
+/*# sourceMappingURL=white-box.min.css.map */

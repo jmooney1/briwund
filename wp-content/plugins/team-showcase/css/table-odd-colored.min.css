@@ -1,0 +1,6 @@
+.ts-table-odd-colored{width:100%;border-collapse:collapse}.ts-table-odd-colored tr:nth-of-type(odd){background:#f5f5f5}
+.ts-table-odd-colored img{margin-left:5px;vertical-align:baseline}.ts-table-odd-colored td{vertical-align:middle}
+.tshowcase-table-image img{margin:8px 0 0 8px}@media only screen and (max-width:480px){.ts-table-odd-colored table,.ts-table-odd-colored thead,.ts-table-odd-colored tbody,.ts-table-odd-colored th,.ts-table-odd-colored td,.ts-table-odd-colored tr{display:block}
+.ts-table-odd-colored td{border:0;position:relative;padding:5px}.ts-table-odd-colored td:before{position:absolute;top:6px;left:6px;width:45%;padding-right:10px;white-space:nowrap}
+}
+/*# sourceMappingURL=table-odd-colored.min.css.map */
